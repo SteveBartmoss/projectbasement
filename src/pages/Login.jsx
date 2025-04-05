@@ -1,9 +1,10 @@
+import { DivRow } from "../ui/containers/Containers";
+import './login.css'
 
-
-export function Login(){
-    return(
-        <div>
-            <h1>Login</h1>
-        </div>
+export function Login() {
+    return (
+        <DivRow>
+            <img className="img-login" src="/assets/fogforest.png" />
+        </DivRow>
     )
 }

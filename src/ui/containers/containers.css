@@ -1,9 +1,16 @@
 .main-container{
     background-color: black;
     color: white;
+    width: 100vw;
+    height: 100vh;
 }
 
 .div-row{
     display: flex;
     flex-direction: row;
+}
+
+.div-col{
+    display: flex;
+    flex-direction: column;
 }

@@ -11,7 +11,7 @@ export function MainContainer({children}){
 export function DivRow({children}){
     return(
         <div className='div-row'>
-
+            {children}
         </div>
     )
 }

@@ -1,10 +1,13 @@
 import './App.css';
+import { Login } from './pages/Login';
+import { RouterMain } from './routes/routerMain';
+import { MainContainer } from './ui/containers/Containers';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <MainContainer>
+      <RouterMain />
+    </MainContainer>
   );
 }
 

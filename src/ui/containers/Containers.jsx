@@ -7,3 +7,11 @@ export function MainContainer({children}){
         </div>
     )
 }
+
+export function DivRow({children}){
+    return(
+        <div className='div-row'>
+
+        </div>
+    )
+}
